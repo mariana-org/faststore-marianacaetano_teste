@@ -15,22 +15,6 @@ const override: SectionOverride = {
         </ProfileChallenge>
       ),
     },
-    HeroHeader: {
-      Component: (props) => {
-        return (
-          <ProfileChallenge
-            fallback={
-              <HeroHeader
-                title="🔒 Auth Hero"
-                subtitle="You should be logged to see this content"
-              />
-            }
-          >
-            <HeroHeader {...props} />
-          </ProfileChallenge>
-        );
-      },
-    },
   },
 };
 
